@@ -1,0 +1,10 @@
+/*
+after each a tag, add a line break  
+*/
+.line-break {
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+}
