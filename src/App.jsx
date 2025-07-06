@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary py-0">
       <div className="container-fluid d-flex justify-content-between">
       <div className="d-flex justify-content-center">
         <input
@@ -49,7 +49,7 @@ function App() {
         <i className="fab fa-react fa-spin mx-2"></i>
         Found <span className="text-primary">{filteredCount}</span> out of <span className="text-primary">{page1.length + page2.length}</span>  repos.
       </h1>
-      <ul className="list-group mx-1">
+      <ul className="list-group mx-1 pt-2">
       {filteredPage1.map((repo) => (
           <li className="list-group-item py-0" key={repo.id}>
           <i className="fab fa-github mx-1"></i>
